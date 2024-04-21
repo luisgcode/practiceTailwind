@@ -1,0 +1,10 @@
+/* Starts all the elements from HTML */
+@tailwind base;
+/* Access to all the classes of tailwind */
+@tailwind components;
+/* Add the utlities to the project and allow us to access them */
+@tailwind utilities;
+
+.card {
+  @apply w-52 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-lg cursor-pointer;
+}

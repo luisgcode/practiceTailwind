@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../public/css/tailwind.css" />
+
+    <title>Tailwind practice</title>
+
+    <meta name="author" content="Luis Guaiquirian" />
+
+    <meta
+      name="description"
+      content="Luis Guaiquirian is a student web programmer, based in London Ontario, Canada."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="keywords" content="London Ontario" />
+  </head>
+  <body class="font-Montserrat">
+    <nav></nav>
+    <div id="tab-bar"></div>
+    <section class="w-full h-screen">
+      <div id="home">
+        <div class="w-full h-3/4 relative">
+          <div
+            class="w-full h-full flex flex-col absolute space-y-24 py-4 items-center"
+          >
+            <input
+              type="search"
+              class="w-48 outline-none px-2 py-3 rounded-full shadow-sm w-82 transition duration-700 focus-within:shadow-sm focus:ring-2 focus:w-8/12"
+              placeholder="Search"
+            />
+            <button
+              class="text-md font-semibold p-3 w-32 text-primary rounded-full bg-white shadow-md transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110 absolute bottom-10"
+            >
+              Explore
+            </button>
+          </div>
+          <div class="w-full h-full">
+            <img src="./img/img-1.jpg" alt="hero-image" />
+          </div>
+        </div>
+      </div>
+
+      <div id="recommendations" class="p-6 mb-10">
+        <p class="text-3xl font-semibold text-primary">Recommendations</p>
+        <div
+          class="scrollbar-hide w-auto h-80 items-center mt-6 overflow-x-auto overscroll-x-contain flex gap-8 mb-6"
+        >
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-imageThree bg-cover"></div>
+            <div class="bg-secondary w-full h-2/5 p-2 rounded-b-lg">
+              <p class="text-white text-bold text-xl">Option 1</p>
+              <p class="text-white text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-imageFour bg-cover"></div>
+            <div class="bg-white w-full h-2/5 p-2 rounded-b-lg">
+              <p class="text-tertiary text-bold text-xl">Option 2</p>
+              <p class="text-tertiary text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-imageFive bg-cover"></div>
+            <div class="bg-secondary w-full h-2/5 p-2 rounded-b-lg">
+              <p class="text-white text-bold text-xl">Option 3</p>
+              <p class="text-white text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-imageSix bg-cover"></div>
+            <div class="bg-white w-full h-2/5 p-2 rounded-b-lg">
+              <p class="text-tertiary text-bold text-xl">Option 4</p>
+              <p class="text-tertiary text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-imageSeven bg-cover"></div>
+            <div class="bg-secondary w-full h-2/5 p-2 rounded-b-lg">
+              <p class="text-white text-bold text-xl">Option 5</p>
+              <p class="text-white text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-imageEight bg-cover"></div>
+            <div class="bg-white w-full h-2/5 p-2 rounded-b-lg">
+              <p class="text-tertiary text-bold text-xl">Option 6</p>
+              <p class="text-tertiary text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-imageNine bg-cover"></div>
+            <div class="bg-secondary w-full h-2/5 p-2 rounded-b-lg">
+              <p class="text-white text-bold text-xl">Option 7</p>
+              <p class="text-white text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="w-full h-3/5 rounded-t-lg bg-imageTen bg-cover"></div>
+            <div class="bg-white w-full h-2/5 p-2 rounded-b-lg">
+              <p class="text-tertiary text-bold text-xl">Option 8</p>
+              <p class="text-tertiary text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
