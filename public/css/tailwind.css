@@ -602,14 +602,6 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -626,12 +618,12 @@ video {
   height: 60%;
 }
 
-.h-80 {
-  height: 20rem;
-}
-
 .h-96 {
   height: 24rem;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-full {
@@ -756,8 +748,16 @@ video {
   background-image: url('../img/img-10.jpg');
 }
 
+.bg-imageThirteen {
+  background-image: url('../img/img-13.jpg');
+}
+
 .bg-imageThree {
   background-image: url('../img/img-3.jpg');
+}
+
+.bg-imageTwelve {
+  background-image: url('../img/img-12.jpg');
 }
 
 .bg-cover {
@@ -804,17 +804,8 @@ video {
   padding-bottom: 1rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
 .font-Montserrat {
   font-family: Montserrat, sans-serif;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-sm {
@@ -886,6 +877,15 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.heading-title {
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(204 45 74 / var(--tw-text-opacity));
 }
 
 .card {

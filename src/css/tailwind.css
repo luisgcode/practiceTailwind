@@ -5,6 +5,10 @@
 /* Add the utlities to the project and allow us to access them */
 @tailwind utilities;
 
+.heading-title {
+  @apply text-3xl font-semibold text-primary mb-4;
+}
+
 .card {
   @apply w-52 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-lg cursor-pointer;
 }
