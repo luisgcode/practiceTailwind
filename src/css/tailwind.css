@@ -8,3 +8,8 @@
 .card {
   @apply w-52 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-lg cursor-pointer;
 }
+
+.card_title {
+  @apply text-3xl font-semibold text-white;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}

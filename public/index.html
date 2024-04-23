@@ -37,6 +37,7 @@
               type="search"
               class="w-48 outline-none px-2 py-3 rounded-full shadow-sm w-82 transition duration-700 focus-within:shadow-sm focus:ring-2 focus:w-8/12"
               placeholder="Search"
+              style="padding-left: 20px"
             />
             <button
               class="text-md font-semibold p-3 w-32 text-primary rounded-full bg-white shadow-md transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110 absolute bottom-10"
@@ -52,6 +53,7 @@
 
       <div id="recommendations" class="p-6 mb-10">
         <p class="text-3xl font-semibold text-primary">Recommendations</p>
+        <!-- Cars section -->
         <div
           class="w-auto h-80 items-center mt-6 overflow-x-auto overscroll-x-contain flex gap-8 mb-6"
         >
@@ -110,6 +112,35 @@
             <div class="bg-white w-full h-2/5 p-2 rounded-b-lg">
               <p class="text-tertiary text-bold text-xl">Option 8</p>
               <p class="text-tertiary text-md">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Main recommendations -->
+        <div class="px-6 h-full w-full" id="main-recommendations">
+          <p class="text-3xl text-primary font-semibold pb-6">
+            Main recommendations
+          </p>
+          <!-- main recomendations container cards -->
+          <div class="flex flex-col gap-6 items-center justify-center">
+            <!-- Main recommendation card -->
+            <div
+              class="w-full h-96 bg-imageEleven bg-center bg-cover bg-no-repeat rounded-xl p-6"
+            >
+              <p class="card_title">Main option</p>
+              <p class="text-md pl-6x text-black text-sm">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Assumenda aperiam odit officia.
+              </p>
+            </div>
+            <!-- Main recommendation card -->
+            <div
+              class="w-full h-96 bg-imageEleven bg-center bg-cover bg-no-repeat rounded-xl p-6"
+            >
+              <p class="card_title">Main option</p>
+              <p class="text-md pl-6x text-black text-sm">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Assumenda aperiam odit officia.
+              </p>
             </div>
           </div>
         </div>
