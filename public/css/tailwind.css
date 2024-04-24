@@ -618,6 +618,10 @@ video {
   bottom: 6rem;
 }
 
+.bottom-16 {
+  bottom: 4rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -644,6 +648,14 @@ video {
 
 .ml-10 {
   margin-left: 2.5rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -750,6 +762,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -764,6 +780,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .space-y-24 > :not([hidden]) ~ :not([hidden]) {
@@ -913,6 +933,10 @@ video {
   padding: 1.5rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -956,6 +980,10 @@ video {
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
 }
 
 .font-Montserrat {
@@ -1186,6 +1214,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+@media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:col-start-1 {
     grid-column-start: 1;
@@ -1215,6 +1249,10 @@ video {
     display: flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:h-60 {
     height: 15rem;
   }
@@ -1238,6 +1276,18 @@ video {
   .md\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:justify-around {
+    justify-content: space-around;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1251,6 +1301,18 @@ video {
 
   .lg\:bottom-28 {
     bottom: 7rem;
+  }
+
+  .lg\:bottom-36 {
+    bottom: 9rem;
+  }
+
+  .lg\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .lg\:bottom-52 {
+    bottom: 13rem;
   }
 
   .lg\:ml-6 {
@@ -1267,6 +1329,18 @@ video {
 
   .lg\:h-96 {
     height: 24rem;
+  }
+
+  .lg\:h-1\/2 {
+    height: 50%;
+  }
+
+  .lg\:max-h-3 {
+    max-height: 0.75rem;
+  }
+
+  .lg\:max-h-3\.5 {
+    max-height: 0.875rem;
   }
 
   .lg\:w-2\/5 {
@@ -1287,5 +1361,9 @@ video {
 
   .lg\:pb-6 {
     padding-bottom: 1.5rem;
+  }
+
+  .lg\:pl-6 {
+    padding-left: 1.5rem;
   }
 }
