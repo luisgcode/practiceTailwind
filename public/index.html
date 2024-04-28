@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -24,34 +24,91 @@
 
     <meta name="keywords" content="London Ontario" />
   </head>
-  <body class="font-Montserrat">
+  <body class="font-Montserrat dark:bg-gray-900">
     <nav
-      class="hidden w-full h-14 bg-white md:flex justify-between md:items-center p-10"
+      class="hidden w-full h-14 bg-white md:flex justify-between md:items-center p-10 dark:bg-gray-800 fixed z-10"
     >
       <!-- logo -->
       <div class="h-auto w-auto">
-        <p class="text-xl text-primary font-black">Logo company</p>
+        <p class="text-xl text-primary font-black dark:text-white">
+          Logo company
+        </p>
       </div>
       <!-- menu -->
       <ul class="flex gap-8">
         <li>
-          <a class="text-xl text-primary font-bold" href="#">Locations</a>
+          <a class="text-xl text-primary font-bold dark:text-white" href="#"
+            >Locations</a
+          >
         </li>
         <li>
-          <a class="text-xl text-primary font-bold" href="#">Stays</a>
+          <a class="text-xl text-primary font-bold dark:text-white" href="#"
+            >Stays</a
+          >
         </li>
         <li>
-          <a class="text-xl text-primary font-bold" href="#">FAQs</a>
+          <a class="text-xl text-primary font-bold dark:text-white" href="#"
+            >FAQs</a
+          >
         </li>
         <li>
-          <a class="text-xl text-primary font-bold" href="#">About Us</a>
+          <a class="text-xl text-primary font-bold dark:text-white" href="#"
+            >About Us</a
+          >
         </li>
       </ul>
       <!-- right menu -->
-      <div>
-        <a class="text-xl" href="#">🔍</a>
-        <a class="text-xl pl-2" href="#">🌙</a>
-        <a class="text-xl pl-2" href="#">👤</a>
+      <div class="flex items-center gap-4">
+        <a class="text-xl" href="#">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="stroke-current text-primary dark:text-white"
+              d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+              stroke="#000000"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <a class="text-xl pl-2" href="#"
+          ><svg
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="stroke-current text-primary dark:text-white dark:fill-yellow-400"
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+            />
+          </svg>
+        </a>
+        <a class="text-xl pl-2" href="#"
+          ><svg
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="stroke-current text-primary dark:text-white"
+              d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
       </div>
     </nav>
 
