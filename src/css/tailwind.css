@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 .heading-title {
-  @apply text-3xl font-semibold text-primary mb-4;
+  @apply text-2xl font-semibold text-primary mb-4;
 }
 
 .card {
@@ -14,6 +14,6 @@
 }
 
 .card_title {
-  @apply text-3xl font-semibold text-white mb-4;
+  @apply text-1xl font-semibold text-white mb-4;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }

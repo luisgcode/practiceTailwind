@@ -26,7 +26,7 @@
   </head>
   <body class="font-Montserrat dark:bg-gray-900">
     <nav
-      class="hidden w-full h-14 bg-white md:flex justify-between md:items-center p-10 dark:bg-gray-800 fixed z-10"
+      class="shadow-md hidden w-full h-14 bg-white md:flex justify-between md:items-center p-10 dark:bg-gray-800 fixed z-10"
     >
       <!-- logo -->
       <div class="h-auto w-auto">
@@ -60,8 +60,11 @@
         </li>
       </ul>
       <!-- right menu -->
+
       <div class="flex items-center gap-4">
-        <button class="text-xl">
+        <button
+          class="text-xl hover:scale-110 transition-transform duration-300 transform-origin-center"
+        >
           <svg
             width="30"
             height="30"
@@ -79,7 +82,10 @@
             />
           </svg>
         </button>
-        <button id="toggle" class="text-xl pl-2">
+        <button
+          id="toggle"
+          class="text-xl pl-2 hover:scale-110 transition-transform duration-300 transform-origin-center"
+        >
           <svg
             width="30"
             height="30"
@@ -94,7 +100,9 @@
             />
           </svg>
         </button>
-        <button class="text-xl pl-2">
+        <button
+          class="text-xl pl-2 hover:scale-110 transition-transform duration-300 transform-origin-center"
+        >
           <svg
             width="30"
             height="30"
@@ -114,8 +122,8 @@
       </div>
     </nav>
 
-    <section class="w-full h-auto">
-      <div id="home">
+    <section class="w-full h-auto mb-10">
+      <div id="home ">
         <div class="w-full h-3/4 relative">
           <div
             class="w-full h-full flex flex-col absolute space-y-24 py-4 items-center lg:items-start lg:pl-6"
@@ -128,27 +136,27 @@
             />
             <div class="hidden h-auto lg:flex lg:w-2/3">
               <p
-                class="text-white text-4xl font-bold"
+                class="text-white text-4xl font-bold mt-28"
                 style="text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5)"
               >
                 Find more options like this.
               </p>
             </div>
             <button
-              class="text-md font-semibold p-3 w-32 text-primary rounded-full bg-white shadow-md transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110 absolute bottom-10 lg:bottom-32"
+              class="text-md font-semibold p-3 w-32 text-primary rounded-full bg-white shadow-md transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110 absolute bottom-40"
             >
               Explore
             </button>
           </div>
           <div
-            style="height: 50vh; max-height: 800px"
+            style="height: 70vh; max-height: 800px"
             class="w-full h-full bg-imageFourteen bg-cover bg-center"
           >
             <img
               class="lg:hidden"
               src="./img/img-1.jpg"
               alt="hero-image"
-              style="height: 50vh"
+              style="height: 70vh"
             />
           </div>
         </div>
@@ -166,8 +174,10 @@
             <div
               class="bg-secondary dark:bg-gray-600 w-full h-2/5 p-2 rounded-b-lg"
             >
-              <p class="text-white text-bold text-xl">Option 1</p>
-              <p class="text-white text-md">Lorem ipsum dolor sit amet.</p>
+              <p class="text-white text-bold text-md">Option 1</p>
+              <p class="text-white text-sm font-semibold">
+                Lorem ipsum dolor sit amet.
+              </p>
             </div>
           </div>
 
@@ -176,8 +186,10 @@
             <div
               class="bg-white dark:bg-gray-800 w-full h-2/5 p-2 rounded-b-lg"
             >
-              <p class="text-tertiary text-bold text-xl">Option 2</p>
-              <p class="text-tertiary text-md">Lorem ipsum dolor sit amet.</p>
+              <p class="text-tertiary text-bold text-md">Option 2</p>
+              <p class="text-tertiary text-sm font-semibold">
+                Lorem ipsum dolor sit amet.
+              </p>
             </div>
           </div>
           <div class="card">
@@ -185,8 +197,10 @@
             <div
               class="bg-secondary dark:bg-gray-600 w-full h-2/5 p-2 rounded-b-lg"
             >
-              <p class="text-white text-bold text-xl">Option 3</p>
-              <p class="text-white text-md">Lorem ipsum dolor sit amet.</p>
+              <p class="text-white text-bold text-md">Option 3</p>
+              <p class="text-white text-sm font-semibold">
+                Lorem ipsum dolor sit amet.
+              </p>
             </div>
           </div>
           <div class="card">
@@ -194,8 +208,10 @@
             <div
               class="bg-white dark:bg-gray-800 w-full h-2/5 p-2 rounded-b-lg"
             >
-              <p class="text-tertiary text-bold text-xl">Option 4</p>
-              <p class="text-tertiary text-md">Lorem ipsum dolor sit amet.</p>
+              <p class="text-tertiary text-bold text-md">Option 4</p>
+              <p class="text-tertiary text-sm font-semibold">
+                Lorem ipsum dolor sit amet.
+              </p>
             </div>
           </div>
           <div class="card">
@@ -203,8 +219,10 @@
             <div
               class="bg-secondary dark:bg-gray-600 w-full h-2/5 p-2 rounded-b-lg"
             >
-              <p class="text-white text-bold text-xl">Option 5</p>
-              <p class="text-white text-md">Lorem ipsum dolor sit amet.</p>
+              <p class="text-white text-bold text-md">Option 5</p>
+              <p class="text-white text-sm font-semibold">
+                Lorem ipsum dolor sit amet.
+              </p>
             </div>
           </div>
           <div class="card">
@@ -212,8 +230,10 @@
             <div
               class="bg-white dark:bg-gray-800 w-full h-2/5 p-2 rounded-b-lg"
             >
-              <p class="text-tertiary text-bold text-xl">Option 6</p>
-              <p class="text-tertiary text-md">Lorem ipsum dolor sit amet.</p>
+              <p class="text-tertiary text-bold text-md">Option 6</p>
+              <p class="text-tertiary text-sm font-semibold">
+                Lorem ipsum dolor sit amet.
+              </p>
             </div>
           </div>
           <div class="card">
@@ -221,8 +241,10 @@
             <div
               class="bg-secondary dark:bg-gray-600 w-full h-2/5 p-2 rounded-b-lg"
             >
-              <p class="text-white text-bold text-xl">Option 7</p>
-              <p class="text-white text-md">Lorem ipsum dolor sit amet.</p>
+              <p class="text-white text-bold text-md">Option 7</p>
+              <p class="text-white text-sm font-semibold">
+                Lorem ipsum dolor sit amet.
+              </p>
             </div>
           </div>
           <div class="card">
@@ -230,8 +252,10 @@
             <div
               class="bg-white dark:bg-gray-800 w-full h-2/5 p-2 rounded-b-lg"
             >
-              <p class="text-tertiary text-bold text-xl">Option 8</p>
-              <p class="text-tertiary text-md">Lorem ipsum dolor sit amet.</p>
+              <p class="text-tertiary text-bold text-md">Option 8</p>
+              <p class="text-tertiary text-sm font-semibold">
+                Lorem ipsum dolor sit amet.
+              </p>
             </div>
           </div>
         </div>
@@ -330,9 +354,9 @@
       </div>
     </section>
 
-    <hr class="my-10" />
+    <hr />
 
-    <footer class="dark:bg-gray-800 mt-14 w-full h-auto bg-gray-50 p-6 pb-16">
+    <footer class="dark:bg-gray-800 w-full h-auto bg-gray-50 p-6 pb-16">
       <p class="text-lg mb-3 dark:text-white">Company</p>
       <p class="text-sm text-gray-600 dark:text-white">About Us</p>
       <p class="text-sm text-gray-600 dark:text-white">Investments</p>
